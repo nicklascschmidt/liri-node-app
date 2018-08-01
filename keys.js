@@ -11,6 +11,8 @@ exports.twitter = {
 
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
-  secret: process.env.SPOTIFY_SECRET
+  secret: process.env.SPOTIFY_SECRET,
+  super_secret: process.env.SPOTIFY_SUPER_SECRET,
+  super_secret_2: process.env.SPOTIFY_SUPER_SECRET_2
 };
 
