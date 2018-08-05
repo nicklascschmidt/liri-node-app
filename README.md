@@ -12,3 +12,6 @@ All useful data is stored in the log.txt file.
 Please use your own .env file with Spotify and Twitter keys in order to use those functions.
 
 Thanks and enjoy! Please reach out to me directly if anything is not functioning as expected.
+
+GitHub link here: https://github.com/nicklascschmidt/liri-node-app
+
