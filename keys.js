@@ -1,7 +1,5 @@
 
 
-console.log('this is loaded');
-
 exports.twitter = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
   consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
@@ -11,8 +9,11 @@ exports.twitter = {
 
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
-  secret: process.env.SPOTIFY_SECRET,
-  super_secret: process.env.SPOTIFY_SUPER_SECRET,
-  super_secret_2: process.env.SPOTIFY_SUPER_SECRET_2
+  secret: process.env.SPOTIFY_SECRET
+};
+
+exports.secret = {
+  key: "lolUgotOwnednever69gonna69give69you69up",
+  key2: "lolUgotOwnedYOU69GOT69RICK69ROLLED69BIOTCH"
 };
 
